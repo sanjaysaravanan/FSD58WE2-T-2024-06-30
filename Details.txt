@@ -73,6 +73,9 @@ Topics:
           Usage of key is a must
 
     2. Conditional rendering
+
+        Conditionally change the UI Design
+
         {/* Conditional Rendering changing the style using ? operator */}
         {/* Method 1 changing the style using ? operator */}
         <h2 style={{ textDecoration: isPassedOut ? "line-through" : "none" }}>

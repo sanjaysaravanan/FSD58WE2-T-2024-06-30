@@ -100,7 +100,11 @@ Task:
   Day 20: React Price Card
     https://docs.google.com/document/d/11URBvZUsXT4Sr3YtCuv-5gcOHmkOmX976h-QKcXbWqs/edit
 
-  Create Your Data like students data and use list & conditional rednering to achieve the UI for your
+  Note: if You need, please use bootstrap
+  Modify the data.json as per the price card UI 
+
+  sample data for the Price Card Task: refer data.json
+
 
 Next Session:
 

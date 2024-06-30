@@ -1,0 +1,56 @@
+[
+  {
+    "type": "FREE",
+    "price": 0,
+    "features": [
+      {
+        "name": "Single User",
+        "avaiable": true
+      },
+      {
+        "name": "50 GB",
+        "avaiable": false
+      },
+      {
+        "name": "Unlimited Projecrts",
+        "avaiable": false
+      }
+    ]
+  },
+  {
+    "type": "PLUS",
+    "price": 9,
+    "features": [
+      {
+        "name": "Single User",
+        "avaiable": true
+      },
+      {
+        "name": "50 GB",
+        "avaiable": true
+      },
+      {
+        "name": "Unlimited Projecrts",
+        "avaiable": false
+      }
+    ]
+  },
+  {
+    "type": "PRO",
+    "price": 49,
+    "features": [
+      {
+        "name": "Single User",
+        "avaiable": true
+      },
+      {
+        "name": "50 GB",
+        "avaiable": true
+      },
+      {
+        "name": "Unlimited Projecrts",
+        "avaiable": true
+      }
+    ]
+  }
+]

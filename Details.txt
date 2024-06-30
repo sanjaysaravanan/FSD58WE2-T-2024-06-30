@@ -1,0 +1,118 @@
+
+Topics:
+
+   jsx --> javascript xml, which permits to write html elements inside js file
+
+    empty fragement --> <></>
+    react is the library which allows JSX syntax
+      className instead of class ( class is a keyword in js )
+      class is a keyword for creating blueprints of user defined object
+      because of which we need to use className instead of class in jsx syntax
+
+      label for ---> htmlFor
+    
+    expressions or varaibles can be used in curly braces
+
+    import/export
+
+      normal import/export using curly braces / * as utils
+
+      default import/export
+    
+    Script:
+      dev, build, preview
+
+    webpack/esbuild & babeljs conversion
+
+    Virtual DOM:
+      Real DOM: Tree like structure 
+        html 
+          head
+            title
+            script
+            icon
+          body
+            div
+            h1
+            a
+            p
+
+      Virtual DOM: 
+        it is an ** In Memory Copy of the real DOM ( <div id="root" ></div> ) ** used while manipulating the DOM.
+
+      React  SPA:
+      Virtual DOM
+        The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM.
+
+      Advantage: reconciliation process
+
+        where the changes happens only in the virtual DOM which will be compared with old virtual DOM. And if any difference is found it will affected in the Real DOM. 
+
+        No diff changes, Only memory/Virtual DOM changes not the real DOM
+
+  Components (simple HTML layout to reusable react components)
+    
+    Styles styles
+      inline style --> using it as object
+        HTML Inline
+          <img src='https://image.com/image.png' style="height: 200px; width: 100px" />
+        React Inline
+          <img src={props.imageUrl} style={{ height: '200px', width: '100px' }} />
+
+      External Styling:
+        normal styling using .css
+    
+    props: 
+      the essential information needed to create a component for displaying the information
+
+      attributes passed for a component is called as prop
+      which can be used inside the props / destructured at component level 
+    
+    1. Working with array lists
+        List Rendering 
+          Usage of key is a must
+
+    2. Conditional rendering
+        {/* Conditional Rendering changing the style using ? operator */}
+        {/* Method 1 changing the style using ? operator */}
+        <h2 style={{ textDecoration: isPassedOut ? "line-through" : "none" }}>
+          {name}
+        </h2>
+
+        {/* Method 2 using the ? operator directly on the tag */}
+        {isPassedOut ? (
+          <h2 style={{ textDecoration: "line-through" }}>{name}</h2>
+        ) : (
+          <h2>{name}</h2>
+        )}
+
+        {/* Method 3 using && */}
+        {isPassedOut && (
+          <h2 style={{ textDecoration: "line-through" }}>{name}</h2>
+        )}
+        {!isPassedOut && <h2>{name}</h2>}
+
+Task:
+  
+  Day 20: React Price Card
+    https://docs.google.com/document/d/11URBvZUsXT4Sr3YtCuv-5gcOHmkOmX976h-QKcXbWqs/edit
+
+  Create Your Data like students data and use list & conditional rednering to achieve the UI for your
+
+Next Session:
+
+  Why key is must in list rendering
+
+  proptypes:
+    specifying the type of the props values needed to create a component
+    this helps in reducing unwanted errors because of typeerror
+  
+  Handling Events
+    onClick
+    onSubmit
+    onChange
+
+  
+
+
+      
